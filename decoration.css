@@ -6,21 +6,54 @@
     background: url('background1.jpg');
   }
   .note{
-    border: 5px solid #d74d15;
+    border: 5px solid #D98A64;
     border-radius: 5px;
     padding: 6px 12px;
     margin: 6px auto 6px;
+    font-size: 30px;
     font-weight: bold;
     font-family: "Times New Roman", Times, serif;
-    background: #2277c7;
-    width: 400px;
+    background: #9ED979;
+    width: 800px;
   }
-  .total {
+  .group {
     margin: 50px auto;
     width: 800px;
-    border: 5px solid #d74d15;
+    border: 5px solid #D98A64;
     border-radius: 5px;
     padding: 10px;
-    background: #137EE2;
+    background: #D9C96F;
   }
   
+  .group div.titre {
+    margin: 20px ;
+  }
+
+  .group div.titre span{
+    width: 300px;
+    color: #483BDB;
+    font-size: 25px;
+    text-align: right;
+    font-weight: bold;
+    font-family: "Times New Roman", Times, serif;
+  }
+
+  .group div.element {
+    margin: 20px ;
+  }
+
+  .group div.elements p{
+    width: 800px;
+    text-align: left;
+    font-size: 18px;
+    font-weight: normal;
+    font-family: "Times New Roman", Times, serif;
+  }
+
+  .group div.elements li{
+    width: 800px;
+    text-align: left;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: "Times New Roman", Times, serif;
+  }
