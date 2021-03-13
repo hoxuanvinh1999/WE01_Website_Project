@@ -1,0 +1,26 @@
+*{
+    margin: 0px;
+    padding: 0px;
+  }
+  body{
+    background: url('background1.jpg');
+  }
+  .note{
+    border: 5px solid #d74d15;
+    border-radius: 5px;
+    padding: 6px 12px;
+    margin: 6px auto 6px;
+    font-weight: bold;
+    font-family: "Times New Roman", Times, serif;
+    background: #2277c7;
+    width: 400px;
+  }
+  .total {
+    margin: 50px auto;
+    width: 800px;
+    border: 5px solid #d74d15;
+    border-radius: 5px;
+    padding: 10px;
+    background: #137EE2;
+  }
+  
