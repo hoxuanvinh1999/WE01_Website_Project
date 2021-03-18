@@ -5,55 +5,63 @@
   body{
     background: url('background1.jpg');
   }
-  .note{
-    border: 5px solid #D98A64;
+  h1{
+    border: 5px solid #FF341C;
     border-radius: 5px;
     padding: 6px 12px;
     margin: 6px auto 6px;
     font-size: 30px;
     font-weight: bold;
     font-family: "Times New Roman", Times, serif;
-    background: #9ED979;
+    background: #18DE9F;
+    color: #3256FA;
     width: 800px;
   }
   .group {
     margin: 50px auto;
-    width: 800px;
-    border: 5px solid #D98A64;
+    width: 700px;
+    border: 5px solid #FF341C;
     border-radius: 5px;
     padding: 10px;
     background: #D9C96F;
   }
-  
-  .group div.titre {
-    margin: 20px ;
-  }
 
-  .group div.titre span{
+  .group summary{
+    margin: 10px ;
     width: 300px;
     color: #483BDB;
-    font-size: 25px;
-    text-align: right;
+    font-size: 22px;
+    text-align: left;
     font-weight: bold;
     font-family: "Times New Roman", Times, serif;
   }
 
-  .group div.element {
-    margin: 20px ;
+  .group details summary {
+    cursor: pointer;
   }
 
-  .group div.elements p{
+  .group details summary > *{
+    display: inline;
+  }
+
+  .group p{
     width: 800px;
+    color: rgb(19, 18, 18);
     text-align: left;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: normal;
     font-family: "Times New Roman", Times, serif;
   }
 
-  .group div.elements li{
+  .group details li{
     width: 800px;
+    color: rgb(19, 18, 18);
     text-align: left;
     font-size: 16px;
     font-weight: normal;
     font-family: "Times New Roman", Times, serif;
+  }
+  
+  #groupmember:hover {
+    color: #FF341C;
   }
