@@ -36,17 +36,17 @@ a{
 
 /*barre de navigation */
 #navigation {
-    margin: 0px auto 0px;
-    width: 95%;
-    padding: 2px 3px;
-    display: flex;
+  margin: 6px auto 6px;
+  width: 1200px;
+  padding: 6px 12px;
+  display: flex;
 }
 
 #navigation ul {
     background: #9dc3e6;
     list-style-type: none;
     text-align: center;
-    width: 95%;
+    width: 1200px;
   }
 
 #navigation li {
