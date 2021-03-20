@@ -76,6 +76,9 @@ a{
 
 /*barre de navigation */
 
+section {
+  padding-left: 20px;
+}
 
 #Livres ul {
     list-style-type: disc;
@@ -85,31 +88,46 @@ a{
 
 footer{
   display:flex;
+  width: auto;
   background-color: #1f4e79;
   color : #deebf7;
   padding-top : 25px;
 }
 
 footer p{
-  font-size : 0.8em;
+  font-size : 20px;
 }
 
 footer h1{
-  font-size : 1.1em;
+  font-size : 20px;
 }
 
 #auteurs {
-  width : 25%;
+  font-size: 18px ;
+  padding-left: 50px;
+  text-align: left;
 }
 
 #liens {
-  width : 25%;
+  padding-left: 50px;
+  text-align: left;
 }
 
-#utc {
-  width : 25%;
+#logoUTC {
+  padding-top: 10px;
 }
 
-#lience {
-  width : 25%;
+.container {
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 100px 350px; 
+  column-gap: 10px;
+  row-gap: 10px;
+  display: grid;
+  justify-items: stretch;
+  align-items: center;
+  justify-content: stretch;
+}
+
+.column2 {
+ text-align: left;
 }

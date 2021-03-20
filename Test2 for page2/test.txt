@@ -1,0 +1,29 @@
+  <div class="row">
+            <div id="liens" class="column1">
+              <h1> Organisation </h1>
+              <p> <a  id="kanban" href="https://kanban.picasoft.net/b/WkjtYGmHLNjtk3LqD/we01">
+                <img src="kanban.png" alt="logo pikan" height="30%" width="30%"/>
+              </a> </p>
+
+              <p> <a id="pad" href="https://pad.picasoft.net/p/Pad_WE01">
+                <img src="pad.png" alt="logo Pad Picasoft" height="30%" width="30%"/>
+              </a> </p>
+
+            </div>
+            <div id="licences" class="column2">
+              <h1> License CC </h1>
+              <p> inserer ici la license creative commons </p>
+            </div>
+          </div>
+
+             <div class="row">
+            <div id="auteurs" class="column1">
+              <h1>Auteurs</h1>
+              <p> Camille Lecossois, Thibault Chassat, Xuân Vinh Hô </p>
+
+            </div>
+            <div id="utc" class="column2">
+              <p> Projet réalisé dans le cadre de l'enseignement de l'UV WE01 de l'université de Technologie de Commpiègne </p>
+              <img src="logoutc.png" alt="logo utc" height="25%" width="25%"/>
+            </div>
+          </div>
