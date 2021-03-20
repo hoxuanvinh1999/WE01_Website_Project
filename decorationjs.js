@@ -19,6 +19,6 @@ function HideInfor(target) {
 function ShowInforEver(targer){
  if(check == false){
     check = true
-    targer.style.display = 'non'
+    targer.style.display = 'block'
  }
 }
