@@ -1,0 +1,115 @@
+*{
+    margin: 0px;
+    padding: 0px;
+  }
+
+body{
+  font-family: calibri;
+  background-color: #deebf7;
+  color: #1f4e79;
+}
+
+header{
+  border-radius: 0px;
+  text-align: center;
+  padding: 6px 12px;
+  margin: 0px auto 0px;
+  font-weight: bold;
+  background-color: #1f4e79;
+  color: #deebf7;
+}
+
+a{
+  color:#1f4e79;
+}
+
+.titreprincipal{
+  font-size: 40px;
+  font-weight: bold;
+}
+
+
+.titresecondaire{
+  font-size: 25px;
+  margin : 10px;
+}
+
+/*barre de navigation */
+#navigation {
+    margin: 0px auto 0px;
+    width: 95%;
+    padding: 2px 3px;
+    display: flex;
+}
+
+#navigation ul {
+    background: #9dc3e6;
+    list-style-type: none;
+    text-align: center;
+    width: 95%;
+  }
+
+#navigation li {
+    color: #9dc3e6;
+    display: inline-block;
+    font-size: 20px;
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    margin-left: -5px;
+    position: relative;
+}
+
+#navigation a {
+    text-decoration: none;
+    color: #deebf7;
+    display: block;
+}
+#navigation a:hover {
+    background: #1f4e79;
+    color: #deebf7;
+}
+
+.active {
+    background-color: #1f4e79;
+}
+
+/*barre de navigation */
+
+
+#Livres ul {
+    list-style-type: disc;
+  }
+
+/* Footer */
+
+footer{
+  display:flex;
+  background-color: #1f4e79;
+  color : #deebf7;
+  padding-top : 25px;
+}
+
+footer p{
+  font-size : 0.8em;
+}
+
+footer h1{
+  font-size : 1.1em;
+}
+
+#auteurs {
+  width : 25%;
+}
+
+#liens {
+  width : 25%;
+}
+
+#utc {
+  width : 25%;
+}
+
+#lience {
+  width : 25%;
+}
