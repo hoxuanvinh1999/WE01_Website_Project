@@ -113,6 +113,13 @@ section h1{
 
 }
 
+.contenu p{
+  font-size: 18px;
+  text-align: justify;
+  padding-top: 10px;
+}
+
+
 /* Footer */
 
 footer{
