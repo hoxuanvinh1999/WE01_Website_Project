@@ -1,0 +1,69 @@
+#conversation {
+    margin: 6px auto 6px;
+    width: 1200px;
+    padding: 6px 12px;
+    width: 1000px;
+}
+  
+#conversation p{
+  font-family: "Gentium Basic";
+  font-size: 19px;
+  text-align: left;
+  margin-left: 15px;
+  color: black;
+}
+
+
+.infor1{
+  float: left;
+  clear: both;
+  padding-bottom: 10px;
+}
+
+.infor2{
+  padding-bottom: 10px;
+  float: right;
+  clear: both;
+}
+
+  .him{
+    display:inline-block;
+    clear: both;
+    padding: 20px;
+    border-radius: 30px;
+    margin-bottom: 2px;
+    font-family: Helvetica, Arial, sans-serif;
+    background: #eee;
+    float: left;
+    max-width: 600px;
+  }
+  
+  .me{
+    display:inline-block;
+    clear: both;
+    padding: 20px;
+    border-radius: 30px;
+    margin-bottom: 2px;
+    font-family: Helvetica, Arial, sans-serif;
+    float: right;
+    background: #0084ff;
+    color: #fff;
+    max-width: 600px;
+  }
+  
+  .him + .me{
+    border-bottom-right-radius: 5px;
+  }
+  
+  .me + .me{
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+  
+  .me:last-of-type {
+    border-bottom-right-radius: 30px;
+  }
+
+  #photo1 {
+    width: 550px;
+  }

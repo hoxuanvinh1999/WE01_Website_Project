@@ -19,6 +19,7 @@ header{
   color: #deebf7;
 }
 
+
 a{
   color:#1f4e79;
 }
@@ -80,6 +81,16 @@ a{
 }
 
 /*barre de navigation */
+
+#pdf{
+  margin: 6px auto 6px;
+  width: 1200px;
+  padding: 6px 12px;
+}
+
+#public_chapitre3{
+  text-align: center;
+}
 
 .button {
   text-align: left;
