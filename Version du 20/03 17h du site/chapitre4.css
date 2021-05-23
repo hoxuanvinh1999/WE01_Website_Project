@@ -10,7 +10,6 @@
   font-size: 19px;
   text-align: left;
   margin-left: 15px;
-  color: black;
 }
 
 
@@ -33,7 +32,8 @@
     border-radius: 30px;
     margin-bottom: 2px;
     font-family: Helvetica, Arial, sans-serif;
-    background: #eee;
+    background: #9DC3E6;
+    color: #1F4E79;
     float: left;
     max-width: 600px;
   }
@@ -46,19 +46,19 @@
     margin-bottom: 2px;
     font-family: Helvetica, Arial, sans-serif;
     float: right;
-    background: #0084ff;
-    color: #fff;
+    background: #1F4E79;
+    color: #9DC3E6;
     max-width: 600px;
+  }
+
+  .me a {
+    color: #FCBCBC;
   }
   
   .him + .me{
     border-bottom-right-radius: 5px;
   }
   
-  .me + .me{
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
-  }
   
   .me:last-of-type {
     border-bottom-right-radius: 30px;
