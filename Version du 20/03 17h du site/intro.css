@@ -86,7 +86,14 @@ a{
   margin: 6px auto 6px;
   width: 1200px;
   padding: 6px 12px;
+  padding-top: 15px;
 }
+
+#titrepdf{
+  text-align: center;
+  font-size: 20px;
+  padding-bottom: 15px;
+} 
 
 #public_chapitre3{
   text-align: center;
